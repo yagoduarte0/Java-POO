@@ -1,3 +1,4 @@
+package PraticandoAC;
 import java.util.Scanner;
 
 public class Praticando5 {

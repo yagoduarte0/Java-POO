@@ -1,19 +1,20 @@
+package PraticandoAC;
 import java.util.Scanner;
 
-public class Praticando2 {
+public class Praticando1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o primeiro número inteiro: ");
-        float num1 = scanner.nextInt();
+        int num1 = scanner.nextInt();
 
         System.out.print("Digite o segundo número inteiro: ");
-        float num2 = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
-        float soma = num1 + num2;
-        float subtracao = num1 - num2;
-        float multiplicacao = num1 * num2;
-        float divisao = num1 / num2;
+        int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int multiplicacao = num1 * num2;
+        int divisao = num1 / num2;
 
         System.out.println("\nResultados:");
         System.out.println("Soma: " + soma);
